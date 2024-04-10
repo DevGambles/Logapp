@@ -1,0 +1,23 @@
+{
+  "name": "dhme",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "ioredis": "^4.16.0",
+    "memcached-promisify": "^2.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^4.13.20",
+    "morgan": "~1.9.1",
+    "roundround": "^0.2.0",
+    "sha1": "^1.1.1",
+    "wrr-pool": "^1.1.4"
+  }
+}
